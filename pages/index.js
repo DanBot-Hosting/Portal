@@ -6,6 +6,9 @@ export default function Home() {
           <h2 className="card-title">DanBot Portal</h2>
           <button className="btn btn-primary mt-6" onClick={() => window.location.href = "https://danbot.host"}>Main Website</button>
           <button className="btn btn-primary mt-6" onClick={() => window.location.href = "https://panel.danbot.host"}>Game Panel</button>
+          <button className="btn btn-primary mt-6" onClick={() => window.location.href = "https://status.danbot.host"}>Status Page</button>
+          <button className="btn btn-primary mt-6" onClick={() => window.location.href = "https://uptime.danbot.host"}>Uptime Monitor</button>
+          <button className="btn btn-primary mt-6" onClick={() => window.location.href = "https://github.com/DanBot-Hosting"}>GitHub Organization</button>
           <button className="btn btn-primary mt-6" onClick={() => window.location.href = "https://discord.gg/dzeMuFPPxx"}>Discord Server</button>
           <button className="btn btn-primary mt-6" disabled>DBH VPN (Coming Soon)</button>
         </div>
